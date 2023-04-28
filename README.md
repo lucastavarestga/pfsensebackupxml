@@ -1,6 +1,6 @@
 # pfsensebackupxml
-Script de Backup de XML Pfsense
-Este script é compatível com todas as versões: v2.2.6 a v2.6.x
+Script de Backup de XML Pfsense.
+Este script é compatível com todas as versões: v2.2.6 a v2.6.x .
 
 - Procedimentos:
 Acesseo o Pfsense, crie um usuario destinado somente para o backup, pode ser o nome "backup" e atribua uma senha e salve.
