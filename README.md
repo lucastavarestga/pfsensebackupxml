@@ -54,7 +54,9 @@ chmod +x Script_Backup_Pfsense_xml.sh
 - Edite o arquivo Script_Backup_Pfsense_xml.sh e modifique as opções:
 
 LISTE_SRV -> Este corresponde aos endereços completos do servidores Pfsense.
+
 Exemplo:
+
 LISTE_SRV="
 https://192.168.1.1:2017
 https://192.168.2.1:10443
@@ -62,9 +64,13 @@ http://192.168.3.1
 "
 
 PFSENSE_USER -> Neste local vai colocar o nome do usuário criado dentro do Pfsense
+
 PFSENSE_PASS -> Neste local vai colocar a senha configurada para o usuario criado para o backup do Pfsense
+
 Exemplo:
+
 PFSENSE_USER='backup'
+
 PFSENSE_PASS='Backup_2023_SalvaVidas_akqKqq2i09290sk'
 
 - Executadas as modificações, efetuei um teste do backup:
