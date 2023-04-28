@@ -44,17 +44,18 @@ sh -x /opt/scripts/Script_Backup_Pfsense_xml.sh
 
 - Após finalizado, verifique a tela, se ocorreram erros "Sempre analise os logs dentro do Linux"
 
-- E verifiquei se o backup foi executado dentro de: "/opt/scripts/conf_backup/cliente1/", pode usar o comando:
+- Verifique se o backup foi executado dentro de: "/opt/scripts/conf_backup/cliente1/", pode usar o comando:
 
 ls -lha /opt/scripts/conf_backup/cliente1/
 
 *NOTA: Dentro do diretório "/opt/scripts/conf_backup/cliente1/" háverá um outro diretório com a data da execução do backup, seguindo o padrão "Ano-mes-dia"
 
-Entre dentro deste diretório, e liste os arquivos gerados.
+Entre neste diretório, e liste os arquivos gerados.
 
 - Abra o arquivo XML e verifiquei se tem conteúdo, e se o backup foi executado corretamente.
 
 Qualquer dúvida, entre em contato sem problemas.
 
 e-mail: lucastavarestga@gmail.com
+
 Linkedin: https://www.linkedin.com/in/lucastavarestga/
