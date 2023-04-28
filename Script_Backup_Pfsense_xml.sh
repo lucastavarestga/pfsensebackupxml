@@ -29,7 +29,7 @@ http://202.202.202.2
 # login - password
 
 PFSENSE_USER='backup'
-PFSENSE_PASS='Backup_2022_SalvaVidas_777947832jxFqLpq'
+PFSENSE_PASS='Backup_2023_SalvaVidas_akqKqq2i09290sk'
 
 # data
 TODAY=`date +%Y%m%d`
