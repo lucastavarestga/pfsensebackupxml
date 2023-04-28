@@ -1,5 +1,5 @@
 # pfsensebackupxml
-Script de Backup de XML Pfsense.
+## Script de Backup de XML Pfsense.
 Este script é compatível com todas as versões: v2.2.6 a v2.6.x .
 
 - Procedimentos:
@@ -16,7 +16,7 @@ curl e wget
 
 - Crie um diretório e baixe o script seguindo os seguinte procedimentos:
 
-mkdir /opt/scripts ; cd /opt/scripts ; wget https://raw.githubusercontent.com/lucastavarestga/pfsensebackupxml/main/Script_Backup_Pfsense_xml.sh
+'mkdir /opt/scripts ; cd /opt/scripts ; wget https://raw.githubusercontent.com/lucastavarestga/pfsensebackupxml/main/Script_Backup_Pfsense_xml.sh'
 
 - Sete a permissão de execução:
 
@@ -48,7 +48,7 @@ sh -x /opt/scripts/Script_Backup_Pfsense_xml.sh
 
 ls -lha /opt/scripts/conf_backup/cliente1/
 
-*NOTA: Dentro do diretório "/opt/scripts/conf_backup/cliente1/" háverá um outro diretório com a data da execução do backup, seguindo o padrão "Ano-mes-dia"
+* NOTA: Dentro do diretório "/opt/scripts/conf_backup/cliente1/" háverá um outro diretório com a data da execução do backup, seguindo o padrão "Ano-mes-dia"
 
 Entre neste diretório, e liste os arquivos gerados.
 
