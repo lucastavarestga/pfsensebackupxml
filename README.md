@@ -3,7 +3,7 @@ Script de Backup de XML Pfsense.
 Este script é compatível com todas as versões: v2.2.6 a v2.6.x .
 
 - Procedimentos:
-Acesseo o Pfsense, crie um usuario destinado somente para o backup, pode ser o nome "backup" e atribua uma senha e salve.
+Acesse o Pfsense, crie um usuario destinado somente para o backup, pode ser o nome "backup" e atribua uma senha e salve.
 
 - Permissões: Edite o usuario criado, clique em "Effective Privileges" e adicione somente a seguinte permissão:
 "WebCfg - Diagnostics: Backup & Restore	Allow access to the 'Diagnostics: Backup & Restore' page. (admin privilege)"
@@ -27,9 +27,9 @@ chmod +x Script_Backup_Pfsense_xml.sh
 LISTE_SRV -> Este corresponde aos endereços completos do servidores Pfsense.
 Exemplo:
 LISTE_SRV="
-https://200.200.200.2:2017
-https://201.201.201.2:10443
-http://202.202.202.2
+https://192.168.1.1:2017
+https://192.168.2.1:10443
+http://192.168.3.1
 "
 
 PFSENSE_USER -> Neste local vai colocar o nome do usuário criado dentro do Pfsense
