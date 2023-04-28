@@ -12,14 +12,11 @@ Depois salve
 
 - Dentro do Linux, tenha certeza de conter os seguinte pacotes:
 
-curl
-wget
+curl e wget
 
 - Crie um diretório e baixe o script seguindo os seguinte procedimentos:
 
-mkdir /opt/scripts
-cd /opt/scripts
-wget https://raw.githubusercontent.com/lucastavarestga/pfsensebackupxml/main/Script_Backup_Pfsense_xml.sh
+mkdir /opt/scripts ; cd /opt/scripts ; wget https://raw.githubusercontent.com/lucastavarestga/pfsensebackupxml/main/Script_Backup_Pfsense_xml.sh
 
 - Sete a permissão de execução:
 
