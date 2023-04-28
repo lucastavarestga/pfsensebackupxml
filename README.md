@@ -10,7 +10,7 @@ Acesse o Pfsense, crie um usuario destinado somente para o backup, pode ser o no
 
 Depois salve
 
-- Precisaremos um outro computador com Linux instalado (Debian ou Ubuntu ou CentOS ou etc), pois neste linux que iremos executar os backups via script.
+- Precisaremos um outro computador com Linux instalado (Debian ou Ubuntu ou CentOS, etc), pois neste linux que iremos executar os backups via script.
 
 - Dentro do Linux, tenha certeza de conter os seguinte pacotes:
 
